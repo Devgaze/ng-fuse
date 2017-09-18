@@ -1,0 +1,11 @@
+{
+  "extends": "@swo/tslint-config",
+  "rules": {
+    "component-selector": [true, "element", "igrt", "kebab-case"],
+    "directive-selector": [true, "attribute", "igrt", "camelCase"],
+    "pipe-naming": [true, "camelCase", "igrt"],
+    "no-string-literal": false,
+    "curly": false,
+    "typedef": [true, "call-signature", "parameter", "property-declaration", "member-variable-declaration"]
+  }
+}

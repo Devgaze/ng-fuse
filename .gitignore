@@ -1,0 +1,16 @@
+## Angular ##
+# compiled output
+/.sass-cache
+/node_modules
+/dist
+/tmp
+/app/**/*.js
+/app/**/*.js.map
+npm-debug.log
+/e2e/*.js
+/e2e/*.map
+
+#System Files
+.DS_Store
+
+/.fusebox

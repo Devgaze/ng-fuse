@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "emitDecoratorMetadata": true,
+    "removeComments": true,
+    "experimentalDecorators": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "sourceMap": true,
+    "inlineSources": true,
+    "target": "es5",
+    "declaration": true,
+    "noEmitHelpers": false,
+    "pretty": true,
+    "lib": ["es6", "dom"]
+  },
+  "typeRoots": [
+    "node_modules/@types"
+  ],
+  "exclude": [
+    "node_modules"
+  ],
+  "files": [
+    "src/index.ts"
+  ],
+  "angularCompilerOptions": {
+    "strictMetadataEmit": true
+  },
+  "compileOnSave": false,
+  "buildOnSave": false
+}
